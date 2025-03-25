@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML List, Images, Tables & Forms</title>
+</head>
+<body>
+    <h1>HTML Lists</h1>
+    <h3>Odered Lists</h3>
+    <ol type="i" start="1">
+        <li>Software Engineering</li>
+        <li>Web Development</li>
+        <li>Python</li>
+        <li>Database</li>
+    </ol>
+    <h1>HTML Images</h1>
+    <img src="car.jpg" alt="A black BMW X5" width="300" height="300">
+    <h1>HTML Tables</h1>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>Langata,kenya</td>
+                    <td>0724006767</td>
+                    <td>john@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Makal</td>
+                    <td>Kirigiti,Kenya</td>
+                    <td>0113860980</td>
+                    <td>jane@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Makal</td>
+                    <td>Washington,USA</td>
+                    <td>+1458900009</td>
+                    <td>jane@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Abel Hassan</td>
+                    <td>Berlin,Germany</td>
+                    <td>+49120067987</td>
+                    <td>hassan@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Dalia Mliks </td>
+                    <td>Dubai,UAE</td>
+                    <td>+97168949998</td>
+                    <td>dalia@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <form action="" method="">
+            <label for="full_name">Name:</label>
+            <input type="text" name="full_name" id="full_name" required><br><br>
+            <label for ="email">Email:</label>
+            <input type="text" name="email" id="email" required><br><br>
+            <label for="text">Password:</label>
+            <input type="text" name="password" id="password" required><br><br>
+            <label for="text">Date:</label>
+            <input type="text" name="date" id="date" required><br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="gender">Male
+            <input type="radio" name="gender" id="gender">Female
+            <br><br>
+            <label for="hobbies">Hobbies:</label>
+            <input type="checkbox" name="hobbies" id="hobbies">Reading
+            <input type="checkbox" name="hobbies" id="hobbies">Swimming
+            <input type="checkbox" name="hobbies" id="hobbies">Travelling
+            <br><br>
+        </form>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option>--Select Country--</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Tanzania">Tanzania</option>
+        </select>
+        <label for ="description">Describe yourself:</label>
+        <textarea name="description" id="description"></textarea>
+        <br><br>
+        <button>Register</button>
+        <input type="button" value="Cancel">
+</body>
+</html>
